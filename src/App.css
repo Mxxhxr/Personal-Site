@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+
+}
+
+body {
+  background-color: rgb(99, 134, 103);
+  overflow-y: auto;
 }
 
 .App-logo {
@@ -21,18 +27,64 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.my-pic {
+  flex-wrap:wrap;
+  position: absolute; /* Position the image absolutely */
+  top: 0; /* Place the image at the top */
+  left: 0; /* Place the image at the left */
+  border-radius: 50%; /* Make the image rounded (50% for a full circle) */
+  overflow: hidden; /* Hide overflow if the image is larger than the container */
+  width: auto; /* Allow the width to adjust automatically */
+  height: 200px; /* Set the desired height */
+  object-fit: cover;
+  top: 20px;
+  left: 20px;
+}
+
+.first-word {
+  font-size: 5.5vw;
+  line-height: 65%;
+}
+
+.welcome-text {
+  /* font-size: 40px;  */
+  font-size: 3vw; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center; 
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translateY(-50%);
+  line-height: 60%;
+
+}
+
+.additional-txt {
+  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center; 
+  position: absolute;
+  top: 66%; 
+  left: 50%; 
+  transform: translateY(-50%);
+  margin-bottom: 200px;}
+
+.my-name {
+  color: aliceblue;
+}
+
+
+.resume-pic {
+  margin-top: 110vh;
 }
