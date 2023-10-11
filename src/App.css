@@ -61,7 +61,7 @@ body {
   align-items: flex-start; 
   justify-content: center; 
   position: absolute;
-  top: 50%; 
+  top: 45%; 
   left: 50%; 
   transform: translateY(-50%);
   line-height: 60%;
@@ -75,7 +75,7 @@ body {
   align-items: flex-start; 
   justify-content: center; 
   position: absolute;
-  top: 66%; 
+  top: 61%; 
   left: 50%; 
   transform: translateY(-50%);
   margin-bottom: 200px;}

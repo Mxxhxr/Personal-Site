@@ -1,24 +1,18 @@
-// src/components/NavBar.js
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
 
-import React from 'react';
+function MenuBar() {
+    return (
+        <AppBar>
+            <toolbar>
 
-const NavBar = () => {
-    const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-    }
-};
-
-return (
-    <nav>
-        <ul>
-        <li onClick={() => scrollToSection('Home')}>Home</li>
-        <li onClick={() => scrollToSection('About Me')}>About Me</li>
-        <li onClick={() => scrollToSection('Resume')}>Resume</li>
-        </ul>
-    </nav>
+            </toolbar>
+        </AppBar>
     );
-};
-
-export default NavBar;
+}

@@ -1,7 +1,7 @@
 import MyPic from "/Users/maahirvohra/Desktop/Code/personalSite/personal-site/src/Components/MyPicture.png";
 import './App.css';
 import MV_Resume from "/Users/maahirvohra/Desktop/Code/personalSite/personal-site/src/Components/MV_Resume.png";
-
+import menuBar from '/Users/maahirvohra/Desktop/Code/personalSite/personal-site/src/Components/menuBar.js'
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
             <section id="Resume">
               <img src={MV_Resume} className="resume-pic" alt="My Resume"/>
             </section>
-
+            <menuBar/>
     </div>
 
 
