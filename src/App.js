@@ -17,10 +17,10 @@ function App() {
                   <img src={MyPic} className='my-pic' alt="My Picture"/> 
                   <h1 className="welcome-text">
                   <span class="first-word">Hello,</span><br></br>
-                  welcome to my site
+                  welcome to my site.
                   </h1>
                   <div className="additional-txt">
-                  <h2>My name is <span class="my-name">Maahir Vohra</span></h2>
+                  <h2>My name is <span class="my-name">Maahir Vohra.</span></h2>
                 </div>
                 </section>
               }
@@ -31,7 +31,7 @@ function App() {
             <section id="Resume">
               <img src={MV_Resume} className="resume-pic" alt="My Resume"/>
             </section>
-            <menuBar/>
+            {/* <menuBar/> */}
     </div>
 
 
