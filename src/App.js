@@ -1,7 +1,7 @@
-import MyPic from "/Users/maahirvohra/Desktop/Code/personalSite/personal-site/src/Components/MyPicture.png";
+import MyPic from "C:/Users/maahi/OneDrive/Desktop/Code/Personal-Site/src/Components/MyPicture.png";
 import './App.css';
-import MV_Resume from "/Users/maahirvohra/Desktop/Code/personalSite/personal-site/src/Components/MV_Resume.png";
-import menuBar from '/Users/maahirvohra/Desktop/Code/personalSite/personal-site/src/Components/menuBar.js'
+import MV_Resume from "C:/Users/maahi/OneDrive/Desktop/Code/Personal-Site/src/Components/MV_Resume.png";
+import menuBar from "C:/Users/maahi/OneDrive/Desktop/Code/Personal-Site/src/Components/menuBar.js"
 
 function App() {
   return (
