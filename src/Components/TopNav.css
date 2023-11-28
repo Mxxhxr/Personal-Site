@@ -1,0 +1,12 @@
+.top-nav {
+    margin-left: 50%;
+    margin-top: 1%;
+}
+
+.top-nav a {
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: aliceblue;
+}
