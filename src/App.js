@@ -1,15 +1,31 @@
 import {Outlet} from "react-router";
 import './App.css'
 import TopNav from "./Components/TopNav";
-//import menuBar from "./Components/menuBar.js"
+import { ChakraProvider, extendTheme, VStack, Box } from "@chakra-ui/react";
+
+const theme = extendTheme({
+  styles: {
+    global: () => ({
+      body: {
+        bg: "",
+      },
+    }),
+  },
+});
+
 
 export default function App () {
   return (
-    <div className="App">
-      <TopNav/>
-      <div className="page-container">
-        <Outlet/>
-      </div>
-    </div>
+   // <ChakraProvider theme={theme}>
+      //<VStack>
+        <div className="App">
+          <TopNav/>
+          <div className="page-container">
+            <Outlet/>
+          </div>
+        </div>
+     // </VStack>
+    //</ChakraProvider>
+
   )
 }

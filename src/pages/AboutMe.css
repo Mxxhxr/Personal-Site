@@ -1,0 +1,84 @@
+.enlarged-image {
+    overflow: hidden;
+    width: 50vw;  
+    height: 100vh;
+    margin-left: auto;
+    position: fixed;
+    top: 0;
+    left: 60vw; 
+
+}
+
+.my-other-pic {
+    width: 100%;  
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+}
+
+.header-container {
+    transform: rotate(90deg);
+    width: 40vw;
+    display: flex;
+    align-items: flex-start; 
+    position: absolute;
+    top: 45%; 
+    right: 75.5%;    
+}
+
+.about-me-header {
+    font-size: 140px;
+    font-weight: 700;
+    
+}
+
+.paragraph-container {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12%; 
+    left: 15.1%; 
+    flex-shrink: 0;
+    
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 650;
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+
+.text2 {
+    font-size: 20px;
+    font-weight: 650;
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+
+.text3 {
+    font-size: 20px;
+    font-weight: 650;
+    text-align: left; 
+}
+
+.skills-container {
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    position: absolute;
+    top: 60%; 
+    left: 15.1%;     
+}
+
+.skills-header {
+    font-size: 50px;
+    font-weight: 700;
+
+}

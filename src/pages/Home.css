@@ -37,86 +37,103 @@ body {
 .my-pic {
   flex-wrap:wrap;
   position: absolute; /* Position the image absolutely */
-  top: 0; /* Place the image at the top */
-  left: 0; /* Place the image at the left */
-  border-radius: 50%; /* Make the image rounded (50% for a full circle) */
-  overflow: hidden; /* Hide overflow if the image is larger than the container */
   width: auto; /* Allow the width to adjust automatically */
-  height: 200px; /* Set the desired height */
-  object-fit: cover;
-  top: 20px;
-  left: 20px;
+  width: 35%; /* Set the width to 100% to make it responsive */
+  aspect-ratio: 1/1; /* Set the aspect ratio to 1:1 for a square */
+  object-fit: cover; 
+  top: 20%;
+  left: 59%;
 }
 
-/* .first-word {
-  font-size: 5.5vw;
-  line-height: 65%;
-} */
-
-.first-word {
-  font-size: 8.5vw;
-  line-height: 65%;
-
-}
-
-/* .welcome-text {
-  font-size: 3vw; 
+.welcome-container {
+  width: 90vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
   justify-content: center; 
   position: absolute;
-  top: 45%; 
-  left: 50%; 
-  transform: translateY(-50%);
-  line-height: 60%;
-} */
-
-.welcome-text {
-  font-size: 5vw; 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  justify-content: center; 
-  position: absolute;
-  top: 45%; 
-  left: 45%; 
-  transform: translateY(-50%);
-  line-height: 60%;
-
+  top: 30%; 
+  left: 5%; 
 }
 
-/* .additional-txt {
-  font-size: 1vw;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  justify-content: center; 
-  position: absolute;
-  top: 61%; 
-  left: 50%; 
-  transform: translateY(-50%);
-  margin-bottom: 200px;
-} */
-
-.additional-txt {
-  font-size: 1.3vw;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  justify-content: center; 
-  position: absolute;
-  top: 69.298%; 
-  left: 45%; 
-  transform: translateY(-50%);
-  margin-bottom: 200px;
+.different-color {
+  color: #BABABA;
 }
 
-/* 
-.welcome-text {
-  margin-right: 20px;
-} */
+.line1 {
+  font-size: 25px;
+  /* font-family: 'Inter'; */
+  font-weight: 700;
+  word-wrap: break-word;
+}
 
-.my-name {
-  color: rgb(215, 207, 207);
+.name-black {
+  color: black;
+}
+
+.line2-3  {
+  color: black;
+  font-size: 70px;
+  /* font-family: 'Inter'; */
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.line3 {
+  color: black;
+  font-size: 70px;
+  /* font-family: 'Inter'; */
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+
+
+.contact-container {
+  width:15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center; 
+  position: absolute;
+  top: 55%; 
+  left: 5%; 
+}
+
+.contact-header {
+  font-size: 40px;
+  /* font-family: 'Inter'; */
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.email {
+  font-size: 15px;
+  /* font-family: 'Inter'; */
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.phoneNum {
+  font-size: 15px;
+  /* font-family: 'Inter'; */
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.linkedin-logo {
+  flex-wrap:wrap;
+  position: absolute; /* Position the image absolutely */
+  width: auto; /* Allow the width to adjust automatically */
+  height: 40px; /* Set the desired height */
+  top: 110%;
+}
+
+.github-logo {
+  flex-wrap:wrap;
+  position: absolute; /* Position the image absolutely */
+  width: auto; /* Allow the width to adjust automatically */
+  height: 40px; /* Set the desired height */
+  right: 65%;
+  top: 110%;
 }
