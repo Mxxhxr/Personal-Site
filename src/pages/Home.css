@@ -125,7 +125,8 @@ body {
   flex-wrap:wrap;
   position: absolute; /* Position the image absolutely */
   width: auto; /* Allow the width to adjust automatically */
-  height: 40px; /* Set the desired height */
+  /* height: 40px; Set the desired height */
+  height: 4.2vh;
   top: 110%;
 }
 
@@ -133,7 +134,7 @@ body {
   flex-wrap:wrap;
   position: absolute; /* Position the image absolutely */
   width: auto; /* Allow the width to adjust automatically */
-  height: 40px; /* Set the desired height */
+  height: 4.2vh; /* Set the desired height */
   right: 65%;
   top: 110%;
 }
