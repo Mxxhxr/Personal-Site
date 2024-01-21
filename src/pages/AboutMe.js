@@ -24,14 +24,14 @@ export default function AboutMe () {
                 <p className='text2'>
                     Throughout my tenure, I elevated operational efficiency by implementing 
                     automation and harnessing the power of data visualization. I crafted Python 
-                    scripts, leveraging pandas, pyodbc, and SQLAlchemy, to dynamically automate 
+                    scripts, leveraging <span className='paragraph-highlight-color'>pandas, pyodbc, and SQLAlchemy</span>, to dynamically automate 
                     data insertion. This not only slashed processing time but also minimized errors.
                 </p>
                 <p className='text3'>
                     On the data front, I honed my skills in Power BI, empowering me to craft 
                     insightful, data-driven dashboards. Additionally, I count 
-                    myself fortunate to have undergone Lean and Six Sigma training, earning A3 Yellow 
-                    Belt certification along the way!
+                    myself fortunate to have undergone Lean Six Sigma training, earning my <span className='paragraph-highlight-color'>A3 Yellow 
+                    Belt certification</span> along the way!
                 </p>
             </div>
         );

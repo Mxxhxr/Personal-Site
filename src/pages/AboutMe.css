@@ -1,16 +1,16 @@
 .enlarged-image {
     overflow: hidden;
-    width: 50vw;  
+    width: 50vw;
     height: 100vh;
     margin-left: auto;
     position: fixed;
     top: 0;
-    left: 60vw; 
+    left: 60vw;
 
 }
 
 .my-other-pic {
-    width: 100%;  
+    width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
@@ -21,16 +21,16 @@
     transform: rotate(90deg);
     width: 40vw;
     display: flex;
-    align-items: flex-start; 
+    align-items: flex-start;
     position: absolute;
-    top: 45%; 
-    right: 75.5%;    
+    top: 46.1%;
+    right: 76.5%;
 }
 
 .about-me-header {
-    font-size: 140px;
+    font-size: 6vw;
     font-weight: 700;
-    
+
 }
 
 .paragraph-container {
@@ -38,10 +38,14 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 12%; 
-    left: 15.1%; 
+    top: 12%;
+    left: 15.1%;
     flex-shrink: 0;
-    
+
+}
+
+.paragraph-highlight-color {
+    color: #BABABA;
 }
 
 .text {
@@ -49,7 +53,7 @@
     font-weight: 650;
     margin-bottom: 15px;
     text-align: left;
-    
+
 }
 
 .text2 {
@@ -57,28 +61,31 @@
     font-weight: 650;
     margin-bottom: 15px;
     text-align: left;
-    
+
 }
 
 .text3 {
     font-size: 20px;
     font-weight: 650;
-    text-align: left; 
+    text-align: left;
 }
 
 .skills-container {
     width: 11vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
-    justify-content: center; 
+    align-items: flex-start;
+    justify-content: center;
     position: absolute;
-    top: 60%; 
-    left: 15.1%;     
+    /* top: 60%;
+    left: 15.1%; */
+    top: 71%;
+    left: 15.1%;
+    background-color: blueviolet;
 }
 
 .skills-header {
-    font-size: 50px;
+    font-size: 5vh;
     font-weight: 700;
 
 }
