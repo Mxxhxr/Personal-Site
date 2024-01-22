@@ -61,7 +61,6 @@
     font-weight: 650;
     margin-bottom: 15px;
     text-align: left;
-
 }
 
 .text3 {
@@ -69,7 +68,7 @@
     font-weight: 650;
     text-align: left;
 }
-
+/* 
 .skills-container {
     width: 11vw;
     display: flex;
@@ -77,9 +76,21 @@
     align-items: flex-start;
     justify-content: center;
     position: absolute;
-    /* top: 60%;
-    left: 15.1%; */
+    top: 60%;
+    left: 15.1%;
     top: 71%;
+    left: 15.1%;
+    background-color: blueviolet;
+}
+ */
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
     left: 15.1%;
     background-color: blueviolet;
 }
