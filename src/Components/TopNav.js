@@ -7,7 +7,7 @@ export default function TopNav () {
             <a href="/">Home</a>
             <a href="/about-me">About Me</a>
             <a href="/resume">Resume</a>
-            <a href="/contact-me">Contact Me</a>
+            <a href="/projects">Projects</a>
         </div>
     )
 }

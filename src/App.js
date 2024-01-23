@@ -16,16 +16,16 @@ const theme = extendTheme({
 
 export default function App () {
   return (
-   // <ChakraProvider theme={theme}>
-      //<VStack>
+  //  <ChakraProvider theme={theme}>
+      //{/* <VStack> */}
         <div className="App">
           <TopNav/>
           <div className="page-container">
             <Outlet/>
           </div>
         </div>
-     // </VStack>
-    //</ChakraProvider>
+      //{/* </VStack> */}
+    //{/* </ChakraProvider> */}
 
   )
 }

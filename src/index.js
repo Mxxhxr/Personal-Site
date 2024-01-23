@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
-import ContactMe from './pages/ContactMe';
+import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 
 
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <AboutMe/>,
       },
       {
-        path: "/contact-me",
-        element: <ContactMe/>,
+        path: "/projects",
+        element: <Projects/>,
       },
       {
         path: "/resume",

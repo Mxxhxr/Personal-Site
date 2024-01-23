@@ -10,9 +10,27 @@ export default function AboutMe () {
                 <span className='about-me-header'>About Me</span>
             </div>
             
+            );
+        };
+        
+        const Skills = () => {
+            return (
+                <div className='skills-container'>
+                <span className='skills-header'>My Skills</span>
+            </div>
         );
     };
 
+    const SkillBadges = () => {
+        return (
+            <div className='skill-badges-container'>
+                <span className='skills'>
+                    Python, Java, C, C++, SQL, HTML, CSS, JavaScript, React.JS, Github, Power BI, Figma, Windows, MacOS, Linux, Android, iOS
+                </span>
+            </div>
+        );
+    };
+    
 
     const Paragraph = () => {
         return (
@@ -33,44 +51,27 @@ export default function AboutMe () {
                     myself fortunate to have undergone Lean Six Sigma training, earning my <span className='paragraph-highlight-color'>A3 Yellow 
                     Belt certification</span> along the way!
                 </p>
+                <Skills/>
+                <SkillBadges/>
             </div>
         );
     };
 
 
-    const Skills = () => {
-        return (
-            <div className='skills-container'>
-                <span className='skills-header'>My Skills</span>
-            </div>
-        );
-    };
 
-    // const SkillBadges = () => {
-    //     return (
-    //         <div>
-    //             <Stack direction='row'>
-    //             <Badge>Python</Badge>
-    //             <Badge colorScheme='green'>Jav</Badge>
-    //             <Badge colorScheme='red'>C++</Badge>
-    //             <Badge colorScheme='purple'>C</Badge>
-    //             </Stack>
-    //         </div>
-    //     );
-    // };
     
-
     return (
         <div className="about-me">
             <Header/>
             <Paragraph/>
-            <Skills/>
             {/* <SkillBadges/> */}
             <div className='enlarged-image'>
                 <img src={MyPic} className='my-other-pic' alt="Me in Banff National Park, Canada"/> 
             </div>
         </div>
     );
+
+
 };
 
 // https://chakra-ui.com/docs/components/badge

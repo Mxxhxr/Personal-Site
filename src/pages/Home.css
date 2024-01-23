@@ -35,12 +35,16 @@ body {
 
 
 .my-pic {
-  flex-wrap:wrap;
-  position: absolute; /* Position the image absolutely */
-  width: auto; /* Allow the width to adjust automatically */
-  width: 35%; /* Set the width to 100% to make it responsive */
-  aspect-ratio: 1/1; /* Set the aspect ratio to 1:1 for a square */
-  object-fit: cover; 
+  flex-wrap: wrap;
+  position: absolute;
+  /* Position the image absolutely */
+  width: auto;
+  /* Allow the width to adjust automatically */
+  width: 35%;
+  /* Set the width to 100% to make it responsive */
+  aspect-ratio: 1/1;
+  /* Set the aspect ratio to 1:1 for a square */
+  object-fit: cover;
   top: 20%;
   left: 59%;
 }
@@ -49,11 +53,11 @@ body {
   width: 90vw;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
-  justify-content: center; 
+  align-items: flex-start;
+  justify-content: center;
   position: absolute;
-  top: 30%; 
-  left: 5%; 
+  top: 30%;
+  left: 5%;
 }
 
 .different-color {
@@ -71,7 +75,7 @@ body {
   color: black;
 }
 
-.line2-3  {
+.line2-3 {
   color: black;
   font-size: 70px;
   /* font-family: 'Inter'; */
@@ -90,14 +94,14 @@ body {
 
 
 .contact-container {
-  width:15vw;
+  width: 15vw;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
-  justify-content: center; 
+  align-items: flex-start;
+  justify-content: center;
   position: absolute;
-  top: 55%; 
-  left: 5%; 
+  top: 55%;
+  left: 5%;
 }
 
 .contact-header {
@@ -122,19 +126,24 @@ body {
 }
 
 .linkedin-logo {
-  flex-wrap:wrap;
-  position: absolute; /* Position the image absolutely */
-  width: auto; /* Allow the width to adjust automatically */
+  flex-wrap: wrap;
+  position: absolute;
+  /* Position the image absolutely */
+  width: auto;
+  /* Allow the width to adjust automatically */
   /* height: 40px; Set the desired height */
   height: 4.2vh;
   top: 110%;
 }
 
 .github-logo {
-  flex-wrap:wrap;
-  position: absolute; /* Position the image absolutely */
-  width: auto; /* Allow the width to adjust automatically */
-  height: 4.2vh; /* Set the desired height */
+  flex-wrap: wrap;
+  position: absolute;
+  /* Position the image absolutely */
+  width: auto;
+  /* Allow the width to adjust automatically */
+  height: 4.2vh;
+  /* Set the desired height */
   right: 65%;
   top: 110%;
 }
