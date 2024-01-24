@@ -8,8 +8,7 @@ export default function Resume () {
         <section id="Resume">
             <br/>
             <br/>
-            {/* <embed src={MyResume} type="application/pdf" width="1000" height="1150"/> */}
-            <embed src={MyResume} type="application/pdf" width="850" height="830"/>
+            <embed src={MyResume} type="application/pdf" width="850" height="675"/>
         </section>
         </div>
     )
