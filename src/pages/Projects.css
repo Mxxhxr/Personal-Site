@@ -1,5 +1,15 @@
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 .coming-soon-img {
     margin-top: 26vh;
     width: 500px;
     height: auto;
+    animation: rotateAnimation 4s ease-in-out  infinite;
 }
+

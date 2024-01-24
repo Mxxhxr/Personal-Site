@@ -1,8 +1,9 @@
+import React from 'react';
 import './AboutMe.css';
 import MyPic from "../Data/canadaLakepic.jpg";
 // import {Badge, Stack} from '@chakra-ui/react';
 
-export default function AboutMe () {
+export default function AboutMe ({currentPage}) {
 
     const Header = () => {
         return (
