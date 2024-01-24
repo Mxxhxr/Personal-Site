@@ -11,19 +11,6 @@ export default function AboutMe () {
                 </div>
             );
         };
-        
-    //     const Skills = () => {
-    //         return (
-    //     );
-    // };
-
-    // const SkillBadges = () => {
-    //     return (
-    //         <div className='skill-badges-container'>
-    //         </div>
-    //     );
-    // };
-    
 
     const Paragraph = () => {
         return (
@@ -50,31 +37,20 @@ export default function AboutMe () {
                         </span>
                     </div>
                 </p>
-
-                {/* <Skills/> */}
-                {/* <SkillBadges/> */}
             </div>
         );
     };
 
-
-
-    
     return (
         <div className="about-me">
             <Header/>
             <Paragraph/>
-            {/* <SkillBadges/> */}
             <div className='enlarged-image'>
                 <img src={MyPic} className='my-other-pic' alt="Me in Banff National Park, Canada"/> 
             </div>
         </div>
     );
-
-
 };
 
 // https://chakra-ui.com/docs/components/badge
-// could use this to show my skills would look sickkk
-
-
+// could use this to show my skills would look cool

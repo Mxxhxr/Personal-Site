@@ -7,7 +7,6 @@
     top: 0;
     left: 60vw;
     z-index: -1;
-
 }
 
 .my-other-pic {
@@ -25,7 +24,7 @@
     align-items: flex-start;
     position: absolute;
     top: 22.1vw;
-    right: 76.9vw;
+    right: 75.9vw;
 }
 
 .about-me-header {
@@ -41,7 +40,7 @@
     top: 12vh;
     left: 15.1vw;
     flex-shrink: 0;
-    
+
 }
 
 .paragraph-highlight-color {
@@ -52,7 +51,7 @@
     font-size: 1.25rem;
     font-weight: 650;
     margin-bottom: 1.6vh;
-    text-align: left;    
+    text-align: left;
 }
 
 .text2 {
@@ -89,15 +88,15 @@
 /*
 .skill-badges-container {
     margin-top: 3%; */
-    /* margin-top: 59vh;
+/* margin-top: 59vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     position: absolute; */
-    /* top: 110%; */
-    /* top: 51.8vh; */
-    /* background-color: bisques
+/* top: 110%; */
+/* top: 51.8vh; */
+/* background-color: bisques
 }
 */
 .skills {
