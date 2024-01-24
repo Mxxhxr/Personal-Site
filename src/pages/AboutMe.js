@@ -6,30 +6,23 @@ export default function AboutMe () {
 
     const Header = () => {
         return (
-            <div className='header-container'>
-                <span className='about-me-header'>About Me</span>
-            </div>
-            
+                <div className='header-container'>
+                    <span className='about-me-header'>About Me</span>
+                </div>
             );
         };
         
-        const Skills = () => {
-            return (
-                <div className='skills-container'>
-                <span className='skills-header'>My Skills</span>
-            </div>
-        );
-    };
+    //     const Skills = () => {
+    //         return (
+    //     );
+    // };
 
-    const SkillBadges = () => {
-        return (
-            <div className='skill-badges-container'>
-                <span className='skills'>
-                    Python, Java, C, C++, SQL, HTML, CSS, JavaScript, React.JS, Github, Power BI, Figma, Windows, MacOS, Linux, Android, iOS
-                </span>
-            </div>
-        );
-    };
+    // const SkillBadges = () => {
+    //     return (
+    //         <div className='skill-badges-container'>
+    //         </div>
+    //     );
+    // };
     
 
     const Paragraph = () => {
@@ -50,9 +43,16 @@ export default function AboutMe () {
                     insightful, data-driven dashboards. Additionally, I count 
                     myself fortunate to have undergone Lean Six Sigma training, earning my <span className='paragraph-highlight-color'>A3 Yellow 
                     Belt certification</span> along the way!
+                    <div className='skills-container'>
+                        <span className='skills-header'>My Skills</span>
+                        <span className='skills'>
+                            Python, Java, C, C++, SQL, HTML, CSS, JavaScript, React.JS, Github, Power BI, Figma, Windows, MacOS, Linux, Android, iOS
+                        </span>
+                    </div>
                 </p>
-                <Skills/>
-                <SkillBadges/>
+
+                {/* <Skills/> */}
+                {/* <SkillBadges/> */}
             </div>
         );
     };
