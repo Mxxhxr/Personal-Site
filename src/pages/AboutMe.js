@@ -34,7 +34,8 @@ export default function AboutMe ({currentPage}) {
                     <div className='skills-container'>
                         <span className='skills-header'>My Skills</span>
                         <span className='skills'>
-                            Python, Java, C, C++, SQL, HTML, CSS, JavaScript, React.JS, Github, Power BI, Figma, Windows, MacOS, Linux, Android, iOS
+                            Python, Java, C, C++, HTML/CSS, JavaScript, ReactJS, Flask, Bash, MySQL, Oracle SQL, NumPy, SciPy, TensorFlow, Scikit-Learn, PyTorch, Keras, pandas, Github, 
+                            Power BI, Figma, Linux, Windows, macOS, Android, iOS
                         </span>
                     </div>
                 </p>
