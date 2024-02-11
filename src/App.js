@@ -1,17 +1,17 @@
 import {Outlet} from "react-router";
 import './App.css'
 import TopNav from "./Components/TopNav";
-import { ChakraProvider, extendTheme, VStack, Box } from "@chakra-ui/react";
+// import { ChakraProvider, extendTheme, VStack, Box } from "@chakra-ui/react";
 
-const theme = extendTheme({
-  styles: {
-    global: () => ({
-      body: {
-        bg: "",
-      },
-    }),
-  },
-});
+// const theme = extendTheme({
+//   styles: {
+//     global: () => ({
+//       body: {
+//         bg: "",
+//       },
+//     }),
+//   },
+// });
 
 
 export default function App () {

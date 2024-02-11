@@ -1,12 +1,19 @@
-.top-nav {
+.top-nav, .top-nav:not(.black-text) {
     margin-left: 50%;
     margin-top: 1%;
+    color: white !important;
 }
-
 .top-nav a {
     text-decoration: none;
     margin-left: 70px;
     font-size: 1.5vw;
     font-weight: bold;
-    color: aliceblue;
+    color: white;
+}
+.top-nav a.active {
+    padding: .15vw;
+    border-bottom: 2px solid black;
+}
+.top-nav.black-text a {
+    color: black;
 }
