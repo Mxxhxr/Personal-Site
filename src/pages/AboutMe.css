@@ -66,6 +66,11 @@
     font-weight: 650;
     text-align: left;
 }
+.text4 {
+    font-size: 1.25rem;
+    font-weight: 650;
+    text-align: left;
+}
 
 .skills-container {
     /* margin-top: 49vh; */
@@ -104,3 +109,10 @@
     font-weight: 600;
     color: rgb(39, 70, 58)
 }
+
+.custom-link {
+    text-decoration: underline;
+    color: inherit; /* makes it match the surrounding text */
+    cursor: pointer;
+}
+  

@@ -17,20 +17,30 @@ export default function AboutMe ({currentPage}) {
         return (
             <div className='paragraph-container'>    
                 <p className='text'>
-                    I’m a junior Computer Science major at New Jersey Institute of Technology. 
-                    I interned in summer of 2023 at Medtronic as a Technology Intern. 
+                    I'm a Senior Computer Science major at the New Jersey Institute of Technology, currently slated to graduate in Fall 2025.
+                    I'm passionate about solving real-world problems through software, with a strong foundation in full-stack development, backend
+                    engineering, and data visualization.
                 </p>
                 <p className='text2'>
-                    Throughout my tenure, I elevated operational efficiency by implementing 
-                    automation and harnessing the power of data visualization. I crafted Python 
-                    scripts, leveraging <span className='paragraph-highlight-color'>pandas, pyodbc, and SQLAlchemy</span>, to dynamically automate 
-                    data insertion. This not only slashed processing time but also minimized errors.
+                    In 2024, I interned at <a href='https://www.cambridgeassociates.com/' className='text2 custom-link' target='blank' rel='nooopener noreferrer '>Cambridge Associates</a> as
+                    a Full Stack Engineer <span className='paragraph-highlight-color'>for 6 months</span>,
+                    where I developed and maintained a client portal used by 1,300 global clients. I built and deployed scalable features end-to-end using React,
+                    TypeScript, Java, and Spring Boot, while collaborating with cross-functional teams to ensure robust system performance and a smooth user experience.
+
+
                 </p>
                 <p className='text3'>
-                    On the data front, I honed my skills in Power BI, empowering me to craft 
-                    insightful, data-driven dashboards. Additionally, I count 
-                    myself fortunate to have undergone Lean Six Sigma training, earning my <span className='paragraph-highlight-color'>A3 Yellow 
-                    Belt certification</span> along the way!
+                    Previously, I interned at <a href='https://www.medtronic.com/en-us/index.html' className='text2 custom-link' target='blank' rel='noopener noreffer'>Medtronic</a> as a Backend Engineer, where I significantly boosted operational efficiency by automating database tasks.
+                    I wrote Python scripts using pandas, pyodbc, and SQLAlchemy to dynamically update database tables, cutting down processing time from 20 minutes
+                    to just seconds and eliminating human error. I also crafted insightful dashboards using Power BI to uncover data trends, and contributed to sustainability
+                    efforts by reducing paper waste.
+                </p>
+                <p className='text4'>
+                    I'm also certified with a <span className='paragraph-highlight-color'>Lean Six Sigma A3 Yellow Belt</span>, 
+                    which has equipped me with a process-oriented mindset that I bring to both technical and team-driven projects.
+
+
+
                     <div className='skills-container'>
                         <span className='skills-header'>My Skills</span>
                         <span className='skills'>
